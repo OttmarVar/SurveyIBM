@@ -1,0 +1,9 @@
+applications:
+    - path: .
+    name: encuesta
+    host: encuesta
+    framework: node
+    memory: 256M
+    instances: 1
+    services:
+    - "Cloudant NoSQL DB-6i"

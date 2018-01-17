@@ -1,0 +1,23 @@
+{
+  "name": "survey_ibm",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cloudant": "^1.10.0",
+    "formik": "^0.10.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
+    "react-scripts": "1.0.17",
+    "react-virtualized-select": "^3.1.1",
+    "yup": "^0.23.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "https://7bcc7c6b-582c-4f17-87a8-f259adcd425f-bluemix:263ec09fe38de9074079e2653e93626c75e4bb4db2e4c1cb59a4f47da6daf037@7bcc7c6b-582c-4f17-87a8-f259adcd425f-bluemix.cloudant.com"
+}
